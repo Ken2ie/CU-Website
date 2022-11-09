@@ -152,3 +152,58 @@ body{
     text-align: right;
     font-size: 0.8rem;
 }
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 1104px) {
+    .newsletter{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .news{
+        width: 100%;
+        height: 17rem;
+    }
+
+    .one{
+        margin-bottom: 30px;
+    }
+
+    .subscribe{
+        margin-bottom: 200px;
+    }
+
+    .carousel{
+        margin: 0;
+    }
+
+    .words{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .words p{
+        font-size: 0.6rem;
+    }
+
+    .pic{
+        width: 30rem;
+    }
+
+    .contain input{
+        font-size: 1.2rem;
+        padding: 0 10px;
+    }
+
+    .bxs-send {
+        font-size: 1.5rem;
+    }
+
+    .carousel {
+     background-color: black;
+    }
+}
